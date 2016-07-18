@@ -1,0 +1,33 @@
+Sue	Plaintiff Adjudicator O Crime Place Time Defendant
+Arrest-Jail	Agent Crime Person Place O Time
+Injure	Agent Instrument Place O Victim Time
+Phone-Write	Time Place O Entity
+Attack	Target Instrument O Entity Attacker Place Time
+Acquit	Crime Adjudicator Defendant O Time
+End-Position	O Entity Person Place Time Position
+Demonstrate	Time Place O Entity
+Divorce	Person Place O Time
+Convict	Adjudicator O Crime Place Time Defendant
+Appeal	Plaintiff Adjudicator O Crime Place Time
+Trial-Hearing	Adjudicator O Crime Place Prosecutor Time Defendant
+Extradite	Origin Destination Agent Person O Time
+Declare-Bankruptcy	Org Place O Time
+Be-Born	Person Place O Time
+Nominate	Person Position Agent O Time
+Start-Org	Org Place Agent O Time
+Execute	Agent Crime Person Place O Time
+Release-Parole	O Crime Person Place Time Entity
+Transfer-Ownership	Price Artifact Seller Beneficiary Place O Time Buyer
+Die	Agent Instrument Place O Victim Time
+Marry	Person Place O Time
+Transfer-Money	Money O Beneficiary Place Time Recipient Giver
+Meet	Time Place O Entity
+Start-Position	O Entity Person Place Time Position
+Elect	O Entity Person Place Time Position
+Pardon	Adjudicator Place Defendant O Time
+Sentence	Sentence Adjudicator O Crime Place Time Defendant
+Merge-Org	Org O Time
+End-Org	Org Place O Time
+Fine	Money Adjudicator O Crime Place Time Entity
+Charge-Indict	Sentence Adjudicator O Crime Place Defendant Time Prosecutor
+Transport	O Origin Time Destination Agent Artifact Vehicle
