@@ -19,6 +19,20 @@
 # Joint Event and Entity Extraction
 Implementation of the joint event and entity model described in "Joint Extraction of Events and Entities within a Document Context" by Bishan Yang and Tom M. Mitchell.
 
+If you are using this code in your work, please cite the following publication:
+
+Bishan Yang and Tom Mitchell (2016). Joint Extraction of Events and Entities within a Document Context. Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL), pp. 289-299
+
+```latex
+@InProceedings{yang2016joint,
+  author    = {Yang, Bishan and Mitchell, Tom},
+  title     = {Joint Extraction of Events and Entities within a Document Context},
+  booktitle = {Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  year      = {2016},
+  pages     = {289--299}
+}
+```
+
 ## Compile the code
 cd Release
 
@@ -45,11 +59,3 @@ AD3 (approximate MAP decoder with Alternating Direction Dual Decomposition) (htt
 
 Stanford CoreNLP version 3.6.0 (http://stanfordnlp.github.io/CoreNLP/)
 
-```latex
-@InProceedings{yang2016joint,
-  author    = {Yang, Bishan and Mitchell, Tom},
-  title     = {Joint Extraction of Events and Entities within a Document Context},
-  booktitle = {Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-  year      = {2016},
-  pages     = {289--299}
-}
