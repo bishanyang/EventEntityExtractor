@@ -1,3 +1,21 @@
+    JEE (a joint event and entity extractor for English)
+    Copyright (C) 2016
+    Bishan Yang and Tom M. Mitchell
+    Machine Learning Department, Carnegie Mellon University
+    
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
 # Joint Event and Entity Extraction
 Implementation of the joint event and entity models described in "Joint Extraction of Events and Entities within a Document Context" by Bishan Yang and Tom M. Mitchell.
 
@@ -19,8 +37,6 @@ ace.test.dependencies.txt: the Stanford dependency parse outputs
 ace.test.stanford.ner.txt: the Stanford NER outputs
 
 NER_Type  DocID  SentID  StartOffset,EndOffset
-
-## License
 
 ## References
 CRF++: Yet Another CRF toolkit (https://taku910.github.io/crfpp/)
