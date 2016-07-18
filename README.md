@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
 # Joint Event and Entity Extraction
-Implementation of the joint event and entity models described in "Joint Extraction of Events and Entities within a Document Context" by Bishan Yang and Tom M. Mitchell.
+Implementation of the joint event and entity model described in "Joint Extraction of Events and Entities within a Document Context" by Bishan Yang and Tom M. Mitchell.
 
 ## Compile the code
 cd Release
