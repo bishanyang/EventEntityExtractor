@@ -43,6 +43,8 @@ CRF++: Yet Another CRF toolkit (https://taku910.github.io/crfpp/)
 
 AD3 (approximate MAP decoder with Alternating Direction Dual Decomposition) (https://github.com/andre-martins/AD3)
 
+Stanford CoreNLP version 3.6.0 (http://stanfordnlp.github.io/CoreNLP/)
+
 ```latex
 @InProceedings{yang2016joint,
   author    = {Yang, Bishan and Mitchell, Tom},
